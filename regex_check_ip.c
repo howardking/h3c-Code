@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	char *path = NULL;
 	char *mac = NULL;
 	int result = 0;
-	char prefixip[8];
+	char prefixip[8]; /* 使用8的原因是前两段的最大长度为7+\0=8,正好Linux系统字节对齐提高效率 */
 
 	if(argc <= 2){
 	/*
