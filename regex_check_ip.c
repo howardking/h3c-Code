@@ -1,7 +1,7 @@
 /**
  * FileName:    regex_check_ip.c
  * Description: 使用正则表达式判断IP地址的正确性。如果正确，则交付到下层使用。
- * Date:        2015-6-22
+ * Date:        2015-6-23
  * Author:      王帅华
  * Version:     V0.2
  * */
